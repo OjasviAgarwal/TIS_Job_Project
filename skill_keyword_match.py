@@ -83,32 +83,6 @@ class skill_keyword_match:
         #dictionary (so freq = 0 means that it is not present in resume keywords else we put the freq count from resume keyword)
         #print(keyword_count)
         return keyword_count
-    
-    def get_jaccard_sim(self, x_set, y_set): 
-        '''
-        Jaccard similarity or intersection over union measures similarity 
-        between finite sample sets,  and is defined as size of intersection 
-        divided by size of union of two sets. 
-        Jaccard calculation is modified from 
-        https://towardsdatascience.com/overview-of-text-similarity-metrics-3397c4601f50
-        Input: 
-            x_set (set)
-            y_set (set)
-        Output: 
-            Jaccard similarity score
-        '''         
-        intersection = x_set.intersection(y_set)
-        return float(len(intersection)) / (len(x_set) + len(y_set) - len(intersection))
-
-    def get_vectors(self,v):
-        #print("Hi")
-        #text = [t for t in v]
-        text = v
-        #print(v)
-        #print(text)
-        vectorizer = CountVectorizer()
-        vectorizer.fit(text)
-        return vectorizer.transform(text).toarray()
 
     def get_cosine_similarity_bit_vector(self,x,y):
         l1=[]
@@ -132,26 +106,6 @@ class skill_keyword_match:
         cosine = c / float((sum(l1)*sum(l2))**0.5) #Here we are not squaring because we have 0/1 values in vector
         #print("similarity: ", cosine)
         return cosine
-
-    def get_cosine_sim(self, x, y): 
-        '''
-        https://towardsdatascience.com/overview-of-text-similarity-metrics-3397c4601f50
-        Input: 
-            x (list)
-            y (list)
-        Output: 
-            Cosine similarity score
-        '''         
-        #vectors = [t for t in get_vectors(*strs)]
-        #print("1")
-        #print(type(x))
-        vector_x = [t for t in self.get_vectors(x)]
-        vector_y = [t for t in self.get_vectors(y)]
-        print(vector_x)
-        print(vector_y)
-        print(cosine_similarity(vector_x,vector_y))
-        return cosine_similarity(vector_x,vector_y)
-
     
     
     def cal_similarity(self, resume_keywords, location=None):
@@ -164,9 +118,9 @@ class skill_keyword_match:
             top_match (DataFrame): top job matches
         '''         
         num_jobs_return = 5
-        similarity = []
+        #similarity = []
         similarity_cosine = []
-        similarity_cosine_glove = []
+        #similarity_cosine_glove = []
         #self.loadGloveModel()
         j_info = self.jobs_info_df.loc[self.jobs_info_df['location']==location].copy() if len(location)>0 else self.jobs_info_df.copy()
         #print(j_info)
