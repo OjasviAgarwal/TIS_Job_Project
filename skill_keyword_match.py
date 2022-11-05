@@ -118,37 +118,17 @@ class skill_keyword_match:
             top_match (DataFrame): top job matches
         '''         
         num_jobs_return = 5
-        #similarity = []
         similarity_cosine = []
-        #similarity_cosine_glove = []
-        #self.loadGloveModel()
         j_info = self.jobs_info_df.loc[self.jobs_info_df['location']==location].copy() if len(location)>0 else self.jobs_info_df.copy()
-        #print(j_info)
-        #print(j_info.shape[0])
         #if number of rows in the dataframe are less than 5, then we ll update 5 to the number of rows in the dataframe
         if j_info.shape[0] < num_jobs_return:        
             num_jobs_return = j_info.shape[0]  
         for job_skills in j_info['keywords']:
-            #print(job_skills)
-            #similarity.append(self.get_jaccard_sim(set(resume_keywords), set(job_skills)))
-            #print(type(resume_keywords))
-            #print(set(resume_keywords))
-            #print(type(job_skills))
-            #similarity_cosine.append(self.get_cosine_sim(resume_keywords.tolist(),job_skills))
             similarity_cosine.append(self.get_cosine_similarity_bit_vector(resume_keywords.tolist(),job_skills))
-            #similarity_cosine_glove.append(self.cosine_distance_wordembedding_method(resume_keywords.tolist(),job_skills))
-        #j_info['similarity'] = similarity
         j_info['similarity_cosine'] = similarity_cosine
-        #j_info['similarity_cosine_glove'] = similarity_cosine_glove
-        #print(j_info['similarity'])
-        #print(j_info)
-        #top_match = j_info.sort_values(by='similarity', ascending=False).head(num_jobs_return)
+        print(j_info)
         top_match_based_on_cosine = j_info.sort_values(by='similarity_cosine', ascending=False).head(num_jobs_return)        
-        #top_match_based_on_cosine_glove = j_info.sort_values(by='similarity_cosine_glove', ascending=False).head(num_jobs_return)
-        # Return top matched jobs
-        #print(top_match_based_on_cosine_glove)
         print(top_match_based_on_cosine)
-        #return top_match
         return top_match_based_on_cosine
       
     def extract_jobs_keywords(self):
@@ -196,5 +176,5 @@ class skill_keyword_match:
         #Here we are comparing th
         resume_skills = self.keywords_count(overall_skills_dict, resume_freq)
         #print(resume_skills)
-        print(resume_skills[resume_skills['Freq']>0])
+        #print(resume_skills[resume_skills['Freq']>0])
         return(resume_skills[resume_skills['Freq']>0])
