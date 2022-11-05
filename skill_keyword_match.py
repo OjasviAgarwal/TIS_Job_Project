@@ -9,13 +9,6 @@ from collections import Counter
 import pandas as pd
 import PyPDF2
 import config
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import scipy
-# The following data science skill sets are modified from 
-# https://github.com/yuanyuanshi/Data_Skills/blob/master/data_skills_1.py
 #We need to update our skill list based on what dataset we decide to finalise
 program_languages = ['bash','r','python','java','c++','ruby','perl','matlab','javascript','scala','php']
 analysis_software = ['excel','tableau','sas','spss','d3','saas','pandas','numpy','scipy','sps','spotfire','scikit','splunk','power','h2o']

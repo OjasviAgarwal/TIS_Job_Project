@@ -29,168 +29,141 @@ Motivated. We’re a team of data scientists with personal and collaborative sid
 
 Mastercard is an inclusive Equal Employment Opportunity employer that considers applicants without regard to gender, gender identity, sexual orientation, race, ethnicity, disabled or veteran status, or any other characteristic protected by law.
 
-If you require accommodations or assistance to complete the online application process, please contact reasonable.accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.","['java', 'agile', 'scala', 'aws', 'python', 'mxnet', 'power', 'tensorflow', 'keras', 'google']",0.6
-https://www.indeed.ca/rc/clk?jk=79199063508bc204&fccid=b0fba60337a02c72&vjs=3,"Vancouver,BC",Senior Data Engineer,Mobify,,"Mobify is looking for a Senior Data Engineer to join our team!
-Mobify’s data pipeline processes billions of events every month from web browsers interacting with Progressive Web Apps. It is built on AWS Elastic Beanstalk, Kafka, EMR (using Flink), S3, Luigi and Redshift.
+If you require accommodations or assistance to complete the online application process, please contact reasonable.accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.","['java', 'power', 'scala', 'tensorflow', 'python', 'mxnet', 'keras', 'aws', 'google', 'agile']",0.5590169943749475
+https://www.indeed.ca/rc/clk?jk=0bf5a67d2d677439&fccid=c6d2a28efe7e3280&vjs=3,"Vancouver,BC","Senior/Intermediate Big Data Developer, IoT Cloud",Samsung Vancouver R&D Lab,,"Position Summary
 
-We use the data to help retailers make data-driven decisions using analytics dashboards, provide insights about mobile shopping trends to the community, and improve our products.
+Samsung's IoT team in Vancouver has taken a leadership role in our vision of connected intelligence. We are creating the next generation of IoT solutions, developing cloud software to activate and manage data from a wide range of connected IoT devices, from sensors to TVs to kitchen appliances to cars. As IoT evolves for new industries, we are also creating end-to-end vertical services, most recently in the energy space.
 
-As a member of Mobify’s Data Engineering team, you’ll own data driven features from inception to implementation. You’ll champion data quality while working to improve the latency and throughput of our pipeline and reducing maintenance overhead.
-What You'll Do
-Write, test and release the code to power Mobify’s data pipeline
-Observe, maintain, and improve system performance
-Plan, test and implement changes to architecture
-Collaborate in code and design reviews
-Support other engineers and data scientists in furthering their knowledge, and taking on more ownership
-Practice modern data engineering. We’re using Kafka, Flink, S3, Redshift, and Luigi
-Provide insight into product strategy alongside data scientists, engineers, designers, and product managers
-Apply software development best practices from our Developer Values and Coding Style
-Present your work, and learn from others, at our internal Engineering Meetups
-Contribute to a platform that powers billions of pageviews a month!
-Recommending upgrades or optimizations to existing systems
-Who You Are
-You have worked on and operationally maintained a data processing pipeline and its underlying infrastructure, handling large volumes of data, deployed on AWS or another IaaS or PaaS provider
-You have previous experience working with at least one big data technology like Kafka, Flink or Redshift
-You are proficient using Python, Scala or another programming language
-You have advanced skills designing and maintaining database schemas, and writing performant queries with SQL
-You’re a strong communicator who loves to collaborate with a team and customers
-You have a growth mindset and are open and willing to both accept and give feedback","['scala', 'aws', 'sql', 'python', 'power']",0.565685424949238
-https://www.indeed.ca/rc/clk?jk=cf67382b7734dea5&fccid=ca6562c8f6a697ad&vjs=3,"Vancouver,BC",BI Analyst,Tundra Technical Solutions,,"Contract
-BUSINESS INTELLIGENCE ANALYST
-Work Location: downtown Vancouver, BC
-Position Category: 1-year contract
-Our Business Intelligence and Analytics team integrates data and develops modern reporting solutions, provides advanced analytics to all business units across the organization to generate insights and foster innovation.
-As the Business Intelligence Data Analyst in this team, you possess very strong analytical skill and the proven ability to gather, view and analyze all forms of information in details. You will work directly with the business stakeholders. You will have excellent familiarity of data analysis process and systems and outstanding interpersonal skills. Previous experience in Microsoft BI technology such as SQL Server, Power BI and Azure is required. You will identify the business needs and requirements, then process data from multiple sources, and deliver analytical results. You will be a key contributor who enables Aurora to make decisions by turning data into actionable insights.
-We are looking for a highly motivated team player who is always able to deliver on time. Apply if you love data and analytics, are innovative, love to advocate for change and desire to develop strong working relationships with smart people in a new and fast growing international business.
+The IoT Data Platform team in Vancouver handles massive amounts of data generates by Samsung's SmartThings Cloud. The team is responsible for turning this data into information that allows our stakeholders to make data-driven decisions, as well as collaborating with other ML and AI teams across Samsung to help them get the data they need from the IoT Cloud.
 
-MAIN RESPONSIBILITIES:
-Maintain strong relationships and work closely with stakeholders to ensure business needs are addressed. Collaborate in small groups to gather requirements, translate requirements into analytical project plan.
-Extract and merge data sets from multiple data sources. Perform data cleansing, transformation, exploration, analysis and visualization with Microsoft BI technologies.
-Support day-to-day requests for data analysis such as marketing campaigns, decision support, KPI’s.
-Use advanced techniques, conduct in-depth analytics for strategic initiatives as directed by the management.
-Work side-by-side with the business stakeholders, iterate the analytical work in an agile fashion to deliver insights.
-Participate in the Enterprise Data Warehouse development and other projects as directed by the management.
-Manage multiple project simultaneously while exhibiting professionalism to ensure an incredible stakeholder experience.
+Why We Want You
+The IoT Data Platform Team in Vancouver is looking for a highly motivated and experienced Big Data Engineer with passion for big data, streaming, real-time analytics, and who participate in the full cycle from requirements and architecture, to deploying and owning the production system.
 
+You will join and collaborate with a talented team of the best and brightest IoT Engineers, Big Data Developers, DevOps, Data Scientists and Performance Engineers who work on leading edge technologies and projects that touch millions of people.
+First and foremost, you are a team player and know how to work well with others. You have a strong analytical mind and you like to see the whole picture. You have passion for solving complex problems and have a high degree of aptitude when it comes to learning new technologies. You love data and numbers and understand how important your role is in helping with business decisions.
+Role and Responsibilities
+Be constantly challenged to learn and grow with new technologies and complex problems
+Have shared ownership of the cloud-based products and services you build
+Implement highly scalable big data systems in a cloud environment
+Work in a multi-disciplinary scrum team
+Collaborate with other groups across the organization and other projects
+Skills and Qualifications
+Attitude to work with others and an aptitude to learn quickly
+BS or MS in Computer Science or equivalent experience
+Minimum 7 years of relevant work experience
+Hands-on understanding of scalability and high availability systems
+Proficient in Java and/or Scala programming language
+Experience with various Big Data technologies (Hadoop, Spark, Kafka, Flink, etc)
+Experience with various AWS services (EC2, S3, Lambda, Kinesis, EMR, Redshift etc)
+Proficient in scripting languages like bash, Python, etc
+Strong knowledge of SQL and NoSQL databases (HBase, Cassandra, etc)
+Bonus Skills
+DevOps skills: create build & install scripts, create/manage dockers, UNIX-based systems management, release management, production monitoring, security assessments, etc
+Knowledge of machine learning and deep learning
+Experience with Git and Jenkins
+Agile/Scrum software development methodologies
+Samsung is an equal employment opportunity employer.
 
-JOB REQUIREMENTS:
-A university degree or diploma in Statistics, Mathematics or similar disciplines plus 5+ years of work experience in Data Analytics/Business Intelligence.
-Business acumen in the context of the financial industry
-Very strong experience in database systems including data warehouses and multi-dimensional analytic solutions. Very strong experience working with various data types.
-Outstanding skills in Microsoft BI technologies including SQL Server, Power BI, and Azure environment. Excellent SQL skills to write complex queries to pull data.
-Expert level skills in Excel and other MS Office tools.
-Strong Agile project experience with proven ability to prioritize and manage time.
-Demonstrated success with strategic analytical projects, working with various stakeholders across the business areas.
-Demonstrated ability managing deadlines, workload, and multiple complex projects.
+Samsung has an accommodation process in place and provides accommodations for job applicants with disabilities as appropriate. Assessment and selection materials and procedures can be made available in accessible formats and methods as appropriate. If you require a specific accommodation because of disability or medical need, please let us know when selected to take part in our recruitment process so that reasonable arrangements can be made for the appropriate accommodations to be in place as you move through our process.
 
+We thank you for your interest in working for Samsung. Only candidates selected for an interview will be contacted.","['scrum', 'java', 'cassandra', 'scala', 'python', 'spark', 'sql', 'hadoop', 'nosql', 'hbase', 'bash', 'aws', 'agile', 'devops']",0.472455591261534
+https://www.indeed.ca/rc/clk?jk=ee3f564164d2074c&fccid=e671f6b2e57dc9e3&vjs=3,"Vancouver,BC",Lead Data Engineer,Ignite Technical Resources,,"Permanent
+Lead Data Engineer - Permanent Position in Downtown Vancouver:
+On behalf of our local, Downtown Vancouver client, Ignite Technical Resources is seeking a Lead Developer for their Data Analytics Team to join on a Permanent basis.
+In this role, you will be managing a Data Analytics team of up to 3 Developers and will have accountability for architecture and system design.
+Heavy work/life balance (5 weeks of vacation to start*), shortened workweeks in the summer (paid), a fantastic team, fully stocked kitchen, and a health benefits package is among the perks.
+You will have the opportunity to learn cutting edge technologies and will be exposed to strong Agile/Scrum teams alike within the company. Entirely based on AWS, their customers are worldwide enterprises where you'll be a big part in shaping their system and building their team.
+Responsibilities:
+This role is very hands on and will be focused on system architecture, software design, research, testing and development (80% hands on, 20% leadership)
+Plan, design and coordinate the development of new software components for their data aggregation and storage systems
+Mentor, train, and on-board new hires and participate in code reviews and other technical discussions
+Work together with the team to manage the operations of data processing and storage systems to ensure efficiency whilst upgrading and developing maintenance procedures as needed
+Draft technical documentation of software, development environments, production environments, as well as procedures
+Lead team meetings and discussions for estimation, software design, software development, and code reviews
+Skills and Abilities:
+Experience leading teams on projects with data pipelines in a large-scale production environment (MapReduce, Streaming, Batching or similar frameworks)
+Will have experience and be comfortable in managing teams, leading, conducting code reviews, training, etc.
+Will have experience with system architecture, software design, research, testing, and development
+Building data pipelines (AWS EMR, AWS Data Pipeline, ECS, SQS or similar technologies)
+Data pipeline language experience
+Knowledge of ETL based frameworks
+Experience with Scripting Languages
+SQL databases experience
+BDD or TDD development in an Agile-like process
+Post-secondary diploma or equivalent degree in computer science, engineering, or a related discipline
+Perks:
+5 weeks of vacation to start*
+Shortened Summer hours: Every Friday is only a 6-hour workday!
+Amazing benefits program including a health and wellness spending account of $2400 in addition/on top of the benefits coverage that is already provided
+Fully stocked kitchen (breakfast, snacks, etc.)
+Positive, collaborative, and fun team environment with a culture that accepts all individuals
+Ability to learn and be exposed to cutting edge technologies
+Plenty of opportunities for further education and career growth
+Terms:
+This is a full-time permanent role based in Downtown, Vancouver. Work environment is casual and comfortable.
+Due to the volume of resumes, only those candidates being considered will be contacted.
+Ignite Technical Resources is a Vancouver-based Information Technology resourcing firm built around three principles: speed, efficiency and quality. We provide highly trained and qualified technical consultants to your organization as a flexible work force option.
+Ignite. Wired for people.
+Follow Ignite on Twitter @ignitetechnical and become a fan on Facebook for up-to-date information about our company including job postings!","['scrum', 'mapreduce', 'sql', 'aws', 'agile', 'etl']",0.43301270189221935
+https://www.indeed.ca/company/REBCA/jobs/Senior-Data-Engineer-3c8bffbec9bfede9?fccid=f5906d665e18e186&vjs=3,"Vancouver,BC",Senior Data Engineer,REBCA,"$100,000 - $130,000 a year","$100,000 - $130,000 a year
+We are looking for senior data engineer to join our talented and amazing team in Vancouver.
+REBCA is an innovative startup in the real estate industry that is determined to introduce exciting and groundbreaking changes to the industry. Our vision is to bring forth unprecedented levels of responsiveness, efficiency, convenience, and transparency in different aspects of the real estate services.
+If you are an ambitious individual interested in joining a team to help shape the future of the real estate industry, we encourage you to apply!
+Responsibilities:
+Develop, maintain and refine advanced models to provide valuable insights for strategic decision making
+Identify opportunities where data solutions can be developed to add value across the organization.
+Use statistical and machine learning techniques to provide insight on all aspects of REBCA's business and identify opportunities for enhancement.
+Work with department teams on a range of business problems, identifying and supporting the implementation of solutions to drive improved business results through a combination of advanced analytics, process engineering and usage of new data discovery tools.
+Suggest and evaluate potential solutions derived from the output of predictive models, turning them into tangible cost benefits for the given business area.
+Collaborate with key business stakeholders and executive team to enhance and/or develop new products, services and experiences.
+Research and develop new ways to apply and analyze experiments to benefit the organization.
+Perform database monitoring, maintenance, reorganizations, resource management, schema management, and capacity planning and performance tuning for the company's databases.
+Qualifications:
+3+ years experience of implementing and/or maintaining a data processing pipeline and its underlying infrastructure
+4+ years working experience and education in Big Data platforms
+Proficiency in object-oriented/object function scripting languages: Python, Scala, Java
+Knowledge of data modeling and understanding of different data structures and their benefits and limitations under particular use cases
+Knowledge of GCP technologies such as Big Query ML, Cloud Machine Learning Engine, Dialogflow...etc is a plus
+Perks:
+Stock Options
+Health & Dental Benefits
+Growth Opportunities
+Social Events
+Collaborative Team Environment
+Flexible Hours
+Convenient Vancouver Office location and easily accessible by transit
+Additional Info about this Position:
+REBCA is a new startup company with plans for rapid growth. We fully encourage and support our staff to grow and specialize in areas they are passionate in.
+Job Type: Full-time
+Salary: $100,000.00 to $130,000.00 /year","['java', 'scala', 'python']",0.4082482904638631
+https://www.indeed.ca/rc/clk?jk=236221bbffe731c5&fccid=89ea848be3fa4cf9&vjs=3,"Vancouver,BC",Data Engineer,BuildDirect,,"What You'll Do
+Create and maintain optimal data pipeline architecture.
+Identify, design, and implement internal process improvements: re-designing infrastructure for greater scalability, automating manual processes, optimizing data delivery, etc.
+Build the infrastructure required for optimal extraction, transformation, and loading of data from a wide variety of data sources using SQL and AWS big data technologies.
+Work with stakeholders including the Executive, Product, Data and Design teams to assist with data-related technical issues and support their data infrastructure needs.
+Create data tools for analytics and data scientist team members that assist them in building and optimizing our product into an innovative industry leader.
+What You’ll Need
+Experience supporting and working with cross-functional teams in a dynamic environment.
+Bachelor or Master degree in Computer Science, Statistics, Informatics, Information Systems or another quantitative field.
+Experience with data pipeline and workflow management tools: Airflow, Luigi, Amazon Data Pipeline and etc.
+Experience with AWS cloud services: EC2, EMR, RDS, Redshift, Lambda.
+Experience with stream-processing systems: Kinesis, Storm, Spark-Streaming, etc.
+Experience with one of the object-oriented/scripting languages: Python, Scala, Java, etc.
+Excellent team player who lends support and guidance and shares concern, problems and opportunities.
+Bonus Experience with big data tools: Hadoop, Spark, Kafka, etc.
+What You Must Have
+Self-directed and comfortable supporting the data needs of multiple teams, systems and products in a fast-paced and dynamic environment.
+Excited by the prospect of optimizing or re-designing our company’s data architecture to support our next generation products and data initiatives.
+An audacious spirit that embraces uncertainty and challenges with enthusiasm
+High levels of integrity and a commitment to do what you say you are going to do
+Strong entrepreneurial spirit that has grit, determination and challenges the status quo
+High degree of empathy and the ability to see other’s perspective
+Strong sense of curiosity and the desire to learn and get better everyday
+A little more about us…
 
-If you are interested in this job opportunity, please send your resume to Audrey at athorgrimson@tundratechnical.ca. Thanks!","['excel', 'agile', 'azure', 'sql', 'power']",0.565685424949238
-https://www.indeed.ca/rc/clk?jk=e4d37b521d4e4f91&fccid=641199101caf07fe&vjs=3,"Vancouver,BC",Senior Data Scientist,Finning International Inc.,,"At Finning Digital, we’re connecting customers, equipment, operators and data to create new value, both for Finning and for our customers – and revolutionizing an industry.
+BuildDirect is reinventing the home improvement industry with the first artificial intelligence (AI)-driven technology platform for heavyweight products. The BuildDirect platform includes two core business units:
+BuildDirect Marketplace: An online marketplace that offers Homeowners and Pro Buyers the ability to purchase heavyweight home improvement products direct from Sellers and receive efficient direct-to-home (or jobsite) shipping of those products.
+Gateway Supply Chain: The first anywhere-to-the-home supply chain for heavy and bulky goods that equips manufacturers, distributors and retailers with efficient and cost-effective shipping solutions to move their products from anywhere in the world, to locations across North America.
+The platform is powered by proprietary AI, machine learning, and predictive analytics that drives robust efficiencies for the innovation of heavyweight product services, distribution, and sales across buyers, sellers, shippers, and everyone in between.
 
-This is your opportunity to make a unique and measurable impact on a transforming business.
-Background
-
-We are grounded in the strength and legacy of Finning – and incubating a new and entrepreneurial business. You will be part of the start-up leadership team shaping the opportunity and executing together. If you crave the excitement of breaking new ground and growing a business, while appreciating the strength of a solid foundation and brand, you’ll fit right in. Finning is the world’s largest Cat® dealer, delivering unrivalled service to customers in mining, construction, power systems and forestry for over 80 years. We’re proud of our legacy of providing the products and services that fuel our customers’ businesses and drive our business economies.
-
-We’re also innovators, and in Finning Digital we see a powerful opportunity. The business case is clear. Digital technologies, data and analytics can be harnessed to bring new solutions to the heavy equipment business – a sector where we see the perfect combination of large investments in equipment with limited introduction and adoption of technologies that can drive significant
-additional ROI.
-
-As a Sr. Data Scientist, you’ll be focused on solving real world business challenges and optimizing our business performance across a wide range of areas from supply chain, pricing, and sales, and offering advanced analytical solutions for maintenance program optimization, inventory optimization, fuel optimization, scheduling optimization, amongst others to Finning customers. You’ll rely on your background and love for Statistics, Modelling, Machine Learning, and Optimization for rapid problem solving, developing and/or hacking POC solutions to test the validity of models and concepts, validation and verification of results, and working with data architects and data engineers to build end-to-end data processing pipelines.
-
-In this business facing role, you’ll need not only excellent communication skills, but the ability to translate complex concepts into more digestible terms, you’ll be managing stakeholder expectations during this process and helping to evangelise the power of data driven decisions. As a senior member of the team, you’ll also be asked to mentor other team members and co-ops, across technology and coding, algorithm selection and business acumen, keeping everyone focused on the business. You’ll also work in collaboration with other members on the Finning Digital teams, including Project Managers, Product Managers, Visual Analysts, Architects, Software and Data Engineers and more as we continue to explore new areas inside and outside of business, on our digital journey.
-
-Job Description:
-What You'll Do:
-Work with the business and non-technical stakeholders to discover and document Problem Formulation through gathering requirements and understanding the core problem
-Help leadership with prioritization of backlog of projects based on impact, importance and resourcing
-Communicate and ‘translate’ quantitative findings (storytelling with data), make meaningful conclusions and recommendations, identify and interpret trends and relationships to product and business stakeholders
-Identify requirements and build forecasting methodology and tools that are statistically grounded but also explainable operationally, applying technical skills that allowing models to intelligently adapt to changing attributes, include demand patterns or technology capability
-Develop new statistical methodology that can be used to cluster, classify and predict business outcomes. This includes methods to optimize inventory prediction accuracy and to better understand and mitigate model variance drivers.
-Research machine learning algorithms and implement by tailoring to particular business needs and tested on large datasets and communicating your findings in public research settings
-Create automated metrics using complex databases
-Providing analytical network support to improve quality and standard work result
-You drive the continually improvement of ongoing reporting and analysis processes, automating and/or simplifying self-service support
-Present to and influence senior management at both strategic and tactical levels while also proposing best in class technical and architecture solutions
-Actively solicit and accept design feedback from cross functional teams across a variety of high visibility projects
-Stay abreast of innovations in Cloud infrastructure, Business Intelligence, Analytics and Data Warehouse tools and technologies
-
-Who You Are:
-PhD or Masters graduate in Statistics, Mathematics, Computer Science, or other technical field from an accredited university
-3-5 years’ of post education experience in engineering, data science, analytics or modern business intelligence experience with an emphasis on enterprise digital/customer analytics
-Experience with statistical analysis, regression modeling and forecasting, time series analysis, data mining, financial analysis, and demand modelling
-Exceptional communicator, collaborator, and influencer, and enjoy working with non-technical business stakeholders
-Experience in Statistical Software such as R, Alteryx, SAS, SPSS, Azure ML
-Proficiency with TABLEAU, Microsoft Excel to include making charts, data manipulation, pivot tables, creating macros, and visual basic knowledge
-Able to write SQL scripts for analysis and reporting (SQL, MySQL)
-Experience processing, filtering, and presenting large quantities (100K to Millions of rows) of data
-Comfortable balancing multiple projects and priorities in a highly dynamic, rapidly growing and evolving environment.
-You participate in MeetUps, Product Camps, and other local industry activities as a Brand Ambassador
-You have a great sense of humour – we work extremely hard, and have fun doing it!
-You are a Swiss army knife with a wide range of skills and do what it takes to get the job done! You are resourceful, persistent, and constantly innovative!
-Experience using one or more Python, VBA, MATLAB, Java, C++ programming languages is nice to have
-
-
-We are committed to diversity at Finning, to building and sustaining a diverse and inclusive workforce and as an equal opportunity employer we encourage applications from all qualified individuals. Finning does not discriminate against applicants based on genders, races, national and ethnic origins, religions, ages, sexual orientation, marital and family status, and/or mental or physical disabilities.","['c++', 'phd', 'power', 'matlab', 'sas', 'excel', 'sql', 'python', 'java', 'tableau', 'mysql', 'spss', 'azure', 'r']",0.50709255283711
-https://www.indeed.ca/rc/clk?jk=1b6f98fb67b0e587&fccid=1468513ebc10d6b8&vjs=3,"Vancouver,BC","Specialist, Data Analytics",First Nations Health Authority,,"Permanent
-Are you an expert at analyzing data and finding insights in complex data sets? If you can thrive in a dynamic, fast-paced environment, where you will play a key role in supporting strategic priorities for the health and wellness of BC First Nations, this may be the perfect opportunity for you.
-
-In this role, you will plan and implement projects as well as perform leading-edge data analytics that support effective service delivery. You will interface with management, health professionals and program resources to develop models, reports, scripts and decision support tools. You will also provide technical expertise and act as a mentor to other team members.
-Primary Responsibilities
-Leads data analytics projects in designing and performing experiments / hypothesis testing to predictive future results and outcomes relating to prediction of complex issues such as future service demand, budget forecasting, identification of potential fraud, and/or health risks among benefit claimants
-Collaborates with health professionals, program leaders and management to analyze large, complex health and wellness datasets and makes recommendations using data analytics model to inform FNHA strategic papers, proposals and briefing notes
-Collaborates with stakeholders to design and implement departmental performance measures supporting Health Benefits’ strategic priorities
-Prepares and presents complex datasets, analytical reports and cost analyses (both descriptive and predictive) to management, program experts and health and wellness system partners
-Works with internal and external partners for data identification, data analysis, data reporting and to develop workflow and process maps
-Develops, recommends and implements procedures and guidelines on data quality audits and investigations to assess data sources, identifying opportunities and gaps
-Develops advanced/interactive data visualizations using Tableau and R in order to communicate complex concepts visually
-Develops, plans, monitors, and leads the designs and implementation of analytical models using regression, classification and other algorithms to support quantitative program analysis, health measurement and service delivery
-Develops, tests and implements forecasting models to identify and predict future trends in benefit utilization
-Writes scripts using SQL, Datawatch, R, Python, and other tools to automate data cleansing and analysis from diverse data sources, including SQL data warehouse, text data files, and web data
-Presents data and findings in a variety of means, including but not limited to, charts, graphs, interactive dashboards, and written reports
-Assists in the identification of requirements for Health Benefits information systems and other data resources in order to increase the overall team’s analytic and reporting capacity
-Liaises with business intelligence / data warehouse team members who manage the data warehouse, identifying requirements and opportunities for improved performance, productivity and functionality
-Ensures that data analysis is completed in compliance with data privacy policies and best practices
-Leads the adoption of analytical best practices, new analytical tools and technologies
-Leads by example, providing guidance and mentorship to data analyst team members
-Performs other related duties as assigned
-Qualifications
-Education
-Bachelor’s degree in Analytics, Statistics, Computer Science, Health Informatics, Operations Research or a relevant field of study, or an acceptable combination of education, training and experience
-Recognized data science certification or equivalent
-Experience
-5-7 years of significant, recent and relevant experience leading complex analytical work, preferable in healthcare, using scripting languages and query languages
-Experience with predictive modelling (usually acquired over a period of 3+ years’ - experience gained in professional, academic and data science competitions will be considered)
-Hands-on experience with analytical models, methods and techniques, such as linear regression, logistic regression, association rules data mining, ARIMA time series analysis, decision trees, random forests and support vector machine
-Experience with data visualization and dashboard design software such as Tableau, Power BI
-Experience with business intelligence, data warehouse technologies, with strong SQL skills
-Demonstrated experience in the use of analytical / statistical software such as SQL, Datawatch, R and Python. Advanced R scripting skills are a requirement
-Experience analyzing financial data
-Mastery in MS Excel; able to perform pivot tables, pivot charts, and advanced functions in MS Excel
-Experience in working with First Nations is an asset
-Knowledge, Skills, and Abilities
-Knowledge
-Knowledge of Big Data systems and opportunities, challenges and risks as they pertain to healthcare
-Knowledge of health related programs and services within First Nations communities is an asset
-Knowledge of the BC health care system is an asset Abilities
-Strong quantitative and qualitative analytical skills to assess health programs and services
-Ability to design and test hypotheses, build, test and validate models, and select the best predictive models using MSE, AIC and other diagnostic approaches
-Advanced proficiency in the use of office productivity software (Microsoft Office suite of products)
-Analyze and apply critical thinking to assess, determine options, and make recommendations which are outcome-based and include risk management analysis
-Write reports which present findings in a manner which is easily understandable by a wide audience of end users
-Competencies
-Competencies
-Awareness - Thorough knowledge of the current First Nations health governance landscape in BC.
-Leadership –Influencing, motivating, and inspiring others through direct and indirect means to accomplish organizational objectives including people and partnership development in a manner consistent with the 7 Directives, Shared Values, and Wellness Operating Principles. Able to champion change, in partnership with others, by living the First Nations perspective of health and wellness.
-Decision making - Uses sound judgment to make good decisions based on information gathered and analyzed. Considers all pertinent facts and alternatives before deciding on the most appropriate action. Commits to decision.
-Problem solving - Analyzes problem by gathering and organizing all relevant information. Identifies cause and effect relationships. Comes up with appropriate solutions with minimal supervision.
-Teamwork/collaboration – Strong interpersonal skills. Interacts with people effectively. Able and willing to share and receive information. Collaborates within the group and across groups. Supports group decisions. Puts group goals ahead of own goals.
-Adaptability - Adapts to changing work environments, work priorities and organizational needs. Able to effectively deal with change and diverse people.
-Planning/Organizing – Proactively plans and organizes tasks and work responsibilities to achieve objectives. Sets priorities and schedules activities. Allocates and uses resources properly.
-Work standards - Sets and maintains high professional and performance standards. Pays close attention to detail, accuracy, quality, and ensures follow through.
-Motivation - Displays energy and enthusiasm in approaching the job. Commits to putting in additional effort. Maintains high level of productivity. Self-directed.
-Initiative - Takes action to influence events. Generates ideas for improvement, takes advantage of opportunities, suggests innovations, does more than required.
-Integrity - Shares complete and accurate information. Maintains confidentiality of highly sensitive information. Adheres to organizational policies and procedures. Meets own commitments.
-Reliability - Takes personal responsibility for job performance. Completes work in a timely and consistent manner. Sticks to commitments and reports back on status of assigned tasks.
-Communication - Strong written and oral communication skills. Expresses ideas succinctly and effectively. Organizes and delivers information appropriately. Listens actively.
-Stress tolerance - Displays emotional resilience and the ability to withstand pressure on an on-going basis. Deals with difficult situations while maintaining performance and professionalism. Seeks support from others when necessary. Uses appropriate coping techniques.
-Deadline October 28, 2018 at 4:00PM Date Added 10/12/2018 Organization First Nations Health Authority Job Board Category Analyst Website FNHA Career Department 6000-First Nations Health Benefits Hours per week 37.5 Supervisor Level None Union Code NonUnion Reg/Temp Regular (Permanent) Region Corporate Office","['power', 'excel', 'sql', 'python', 'tableau', 'bachelor', 'r']",0.47809144373375745
+BuildDirect is headquartered in Vancouver, British Columbia with warehouse locations across North America.","['java', 'bachelor', 'scala', 'python', 'master', 'spark', 'sql', 'hadoop', 'aws']",0.3535533905932738

@@ -32,13 +32,9 @@ This project requires **Python 3.0+** and the following Python libraries install
 
 - [NumPy](http://www.numpy.org/) - pip install numpy
 - [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
 - [NLTK Stopwords](https://www.nltk.org/book/ch02.html)
 - [Selenium](https://www.seleniumhq.org/)
 - [PyPDF2](https://pythonhosted.org/PyPDF2/)
-- [sklearn]
-- [wordcloud]
-
 ## Code
 
 Code is provided in 
