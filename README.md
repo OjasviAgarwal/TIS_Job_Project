@@ -1,7 +1,6 @@
 # Job Recommendation By Skill Match
-![image](./figures/job.jpg)
 
-Build a simple data-science-skill-keyword-based job recommendation engine, which match keywords from resume to data science jobs in major Canadian cities.
+Project to to create a simple skill-keyword-based job recommendation engine, which match keywords from resume to job descriptions
 
 ## Install
 
@@ -13,6 +12,7 @@ This project requires **Python 3.0+** and the following Python libraries install
 - [NLTK Stopwords](https://www.nltk.org/book/ch02.html)
 - [Selenium](https://www.seleniumhq.org/)
 - [PyPDF2](https://pythonhosted.org/PyPDF2/)
+- [sklearn]
 
 ## Code
 
@@ -34,7 +34,6 @@ Search and match jobs in one city e.g. Vancouver,BC:
 When finishes successfully, it will say 'File of recommended jobs saved'.
 
 ## Data
-Data collected from indeed.ca - data science jobs posted in the last 30 days in 6 big Canadian cities. 
+Data collected from TBD 
 
-## Project workflow
-![image](./figures/job_rec_flowchart.png)
+
