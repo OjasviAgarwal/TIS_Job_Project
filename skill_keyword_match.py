@@ -136,7 +136,7 @@ class skill_keyword_match:
         l1=[]
         l2=[]
         #rvector = x.union(y)
-        print(len(y) == len(set(y)))
+        #print(len(y) == len(set(y)))
         if(len(x) == 0 or len(y) == 0):
             cosine = 0
             return cosine
@@ -152,7 +152,7 @@ class skill_keyword_match:
         for i in range(len(rvector)):
             c+= l1[i]*l2[i]
         cosine = c / float((sum(l1)*sum(l2))**0.5) #Here we are not squaring because we have 0/1 values in vector
-        print("similarity: ", cosine)
+        #print("similarity: ", cosine)
         return cosine
 
     def get_cosine_sim(self, x, y): 

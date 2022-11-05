@@ -19,4 +19,4 @@ JOB_SEARCH_WORDS = '"data scientist"+OR+"data engineer"+OR+"data analyst"'
 # To avoid same job posted multiple times, we only look back for 30 days
 DAY_RANGE = 30
 # Path to sample resume
-SAMPLE_RESUME_PDF = r'./data/PWang_resume.pdf'
+SAMPLE_RESUME_PDF = r'./data/Ojasvi_Agarwal_resume.pdf'

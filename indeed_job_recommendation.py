@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct 11 12:35:00 2018
-
-@author: Peng Wang
 
 Build a simple data-science-skill-keyword-based job recommendation engine, 
 which match keywords from resume to data science jobs in major Canadian cities.
@@ -47,6 +44,7 @@ def main():
     # -- Job recommendation based on skill matching -----
     # ---------------------------------------------------
     resume_skills = skill_match.extract_resume_keywords(config.SAMPLE_RESUME_PDF)
+    #print(resume_skills)
     #print(resume_skills)
     # Calculate similarity of skills from a resume and job posts 
     top_job_matches = skill_match.cal_similarity(resume_skills.index, location)
