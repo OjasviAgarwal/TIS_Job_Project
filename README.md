@@ -44,7 +44,7 @@ Code is provided in
 
 ## Run
 
-In a terminal or command window, navigate to the top-level project directory `Job-recommendation-by-skill-match/` and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `TIS_Job_Project/` and run one of the following commands:
 
 Search and match jobs in all cities:
 ```python indeed_job_recommendation.py```
