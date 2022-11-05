@@ -1,4 +1,4 @@
-link,location,title,company,salary,desc,keywords,similarity
+link,location,title,company,salary,desc,keywords,similarity_cosine
 https://www.indeed.ca/rc/clk?jk=2b943a97c4257feb&fccid=10b5c722d846df43&vjs=3,"Vancouver,BC",Data Scientist - NuData Security,MasterCard,,"Mastercard's Enterprise Security Solutions organization develops and delivers world-class security products and services for customers across the globe. NuData Security predicts fraudulent transactions by identifying good users from bad, based on their online behavior. By analyzing over 38 billion behaviors annually, NuData harnesses the power of behavioral and biometric analysis to empower its clients to predict fraud and verify the user behind the device. This allows clients to predict fraud before a critical decision, reduce customer insult, and investigate bad actors efficiently.
 
 Role
@@ -29,37 +29,7 @@ Motivated. We’re a team of data scientists with personal and collaborative sid
 
 Mastercard is an inclusive Equal Employment Opportunity employer that considers applicants without regard to gender, gender identity, sexual orientation, race, ethnicity, disabled or veteran status, or any other characteristic protected by law.
 
-If you require accommodations or assistance to complete the online application process, please contact reasonable.accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.","['scala', 'keras', 'java', 'aws', 'python', 'tensorflow', 'agile', 'mxnet', 'google', 'power']",0.42857142857142855
-https://www.indeed.ca/rc/clk?jk=636428ec81c29ce0&fccid=2f7563a9ec0a07ec&vjs=3,"Calgary,AB","Co-op Student, IT Data Services (Data Scientist)",Nutrien,,"Co-op Student, IT Data Services (Data Scientist) - Calgary, AB or Saskatoon, SK
-
-Why work at Nutrien? Great question!
-Safety is a core value at Nutrien. Keeping every employee safe, healthy and secure is our top priority. Nothing is more important than seeing our people go home safe at the end of every single day.
-While working here you will have the opportunity to grow your career while helping us feed the future. We pride ourselves in hiring from a variety of backgrounds and truly believe that it is our differences that make us stronger so we hope you will join us.
-In addition to exciting and challenging opportunities, Nutrien offers competitive salaries, great benefits and performance based incentives.
-Outside of the skills and necessary qualifications, you will be committed to sustaining our safe and positive work environment while welcoming working side by side others in a diverse culture. Culture at Nutrien is the core of everything we do and all employees are respectful of diverse opinions and views.
-Located at our office in Saskatoon or Calgary, Nutrien has an exciting Co-op Student opportunity within IT Data Services. Providing invaluable work experience in a growing company, this position term will begin in early January 2019 or May 2019, for a period of 8-12 months.
-
-The successful candidate will report to the Senior Manager Data Services, IT Data Services.
-
-Key Tasks:
-Apply emerging and advanced data analysis techniques in a real-world setting
-Identify advance analytic model opportunities
-Showcase advanced analytic models using R and Python
-support senior team members to research additional innovative BI opportunities
-Assist with high potential value data identification
-Skills:
-An aptitude and curiosity towards the application of technologies towards better decision making. Strong communication skills, willingness to learn, self-starter, creative
-Strong Microsoft Excel skills
-Statistical modeling, numerical methods and analysis, data mining, knowledge discovery, human computer interaction, interface design, adaptive systems. Some programming/database experience is an asset.
-Experience with R and Python
-Technologies may include: SAP BW, HANA, WebFOCUS, Business Objects, Cognos, Tableau, Oracle, MS SQL Server, MS Power BI, AWS
-Essential Qualifications:
-Progress towards advanced degree in Computer Science, Math, Statistics, Engineering, or other technical advanced degree
-Participation in a structured Co-op program within your College/University
-Minimum GPA of 2.75 is preferred
-Nutrien is committed to creating an inclusive workplace. We encourage applications from all well qualified candidates who reflect the diversity of the regions where we operate. This includes recognizing the voluntary identification of status such as gender, sexual orientation, visible minority, Indigenous status, persons with disabilities, and veterans, where applicable.
-If this sounds like a good match, apply now. This job will remain posted until filled. You may be required to undergo a background check and substance test in accordance with Nutrien policies.
-While we appreciate all applications we receive, we advise that only candidates under consideration will be contacted.","['excel', 'sql', 'aws', 'python', 'tableau', 'r', 'power', 'oracle']",0.38461538461538464
+If you require accommodations or assistance to complete the online application process, please contact reasonable.accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.","['python', 'agile', 'tensorflow', 'aws', 'scala', 'power', 'java', 'mxnet', 'google', 'keras']",0.6
 https://www.indeed.ca/rc/clk?jk=79199063508bc204&fccid=b0fba60337a02c72&vjs=3,"Vancouver,BC",Senior Data Engineer,Mobify,,"Mobify is looking for a Senior Data Engineer to join our team!
 Mobify’s data pipeline processes billions of events every month from web browsers interacting with Progressive Web Apps. It is built on AWS Elastic Beanstalk, Kafka, EMR (using Flink), S3, Luigi and Redshift.
 
@@ -84,7 +54,7 @@ You have previous experience working with at least one big data technology like 
 You are proficient using Python, Scala or another programming language
 You have advanced skills designing and maintaining database schemas, and writing performant queries with SQL
 You’re a strong communicator who loves to collaborate with a team and customers
-You have a growth mindset and are open and willing to both accept and give feedback","['scala', 'sql', 'aws', 'python', 'power']",0.36363636363636365
+You have a growth mindset and are open and willing to both accept and give feedback","['sql', 'python', 'aws', 'scala', 'power']",0.565685424949238
 https://www.indeed.ca/rc/clk?jk=cf67382b7734dea5&fccid=ca6562c8f6a697ad&vjs=3,"Vancouver,BC",BI Analyst,Tundra Technical Solutions,,"Contract
 BUSINESS INTELLIGENCE ANALYST
 Work Location: downtown Vancouver, BC
@@ -114,7 +84,37 @@ Demonstrated success with strategic analytical projects, working with various st
 Demonstrated ability managing deadlines, workload, and multiple complex projects.
 
 
-If you are interested in this job opportunity, please send your resume to Audrey at athorgrimson@tundratechnical.ca. Thanks!","['excel', 'sql', 'agile', 'power', 'azure']",0.36363636363636365
+If you are interested in this job opportunity, please send your resume to Audrey at athorgrimson@tundratechnical.ca. Thanks!","['sql', 'excel', 'agile', 'power', 'azure']",0.565685424949238
+https://www.indeed.ca/rc/clk?jk=636428ec81c29ce0&fccid=2f7563a9ec0a07ec&vjs=3,"Calgary,AB","Co-op Student, IT Data Services (Data Scientist)",Nutrien,,"Co-op Student, IT Data Services (Data Scientist) - Calgary, AB or Saskatoon, SK
+
+Why work at Nutrien? Great question!
+Safety is a core value at Nutrien. Keeping every employee safe, healthy and secure is our top priority. Nothing is more important than seeing our people go home safe at the end of every single day.
+While working here you will have the opportunity to grow your career while helping us feed the future. We pride ourselves in hiring from a variety of backgrounds and truly believe that it is our differences that make us stronger so we hope you will join us.
+In addition to exciting and challenging opportunities, Nutrien offers competitive salaries, great benefits and performance based incentives.
+Outside of the skills and necessary qualifications, you will be committed to sustaining our safe and positive work environment while welcoming working side by side others in a diverse culture. Culture at Nutrien is the core of everything we do and all employees are respectful of diverse opinions and views.
+Located at our office in Saskatoon or Calgary, Nutrien has an exciting Co-op Student opportunity within IT Data Services. Providing invaluable work experience in a growing company, this position term will begin in early January 2019 or May 2019, for a period of 8-12 months.
+
+The successful candidate will report to the Senior Manager Data Services, IT Data Services.
+
+Key Tasks:
+Apply emerging and advanced data analysis techniques in a real-world setting
+Identify advance analytic model opportunities
+Showcase advanced analytic models using R and Python
+support senior team members to research additional innovative BI opportunities
+Assist with high potential value data identification
+Skills:
+An aptitude and curiosity towards the application of technologies towards better decision making. Strong communication skills, willingness to learn, self-starter, creative
+Strong Microsoft Excel skills
+Statistical modeling, numerical methods and analysis, data mining, knowledge discovery, human computer interaction, interface design, adaptive systems. Some programming/database experience is an asset.
+Experience with R and Python
+Technologies may include: SAP BW, HANA, WebFOCUS, Business Objects, Cognos, Tableau, Oracle, MS SQL Server, MS Power BI, AWS
+Essential Qualifications:
+Progress towards advanced degree in Computer Science, Math, Statistics, Engineering, or other technical advanced degree
+Participation in a structured Co-op program within your College/University
+Minimum GPA of 2.75 is preferred
+Nutrien is committed to creating an inclusive workplace. We encourage applications from all well qualified candidates who reflect the diversity of the regions where we operate. This includes recognizing the voluntary identification of status such as gender, sexual orientation, visible minority, Indigenous status, persons with disabilities, and veterans, where applicable.
+If this sounds like a good match, apply now. This job will remain posted until filled. You may be required to undergo a background check and substance test in accordance with Nutrien policies.
+While we appreciate all applications we receive, we advise that only candidates under consideration will be contacted.","['sql', 'python', 'excel', 'tableau', 'aws', 'power', 'oracle', 'r']",0.5590169943749475
 https://www.indeed.ca/company/G2-PLACEMENTS-TI/jobs/Scientifique-De-Donn%C3%A9e-Principal-3f79f7b29101ca1f?fccid=a1a3325489f36dcf&vjs=3,"Montréal,QC",SCIENTIFIQUE DE DONNÉES PRINCIPAL,G2 PLACEMENTS TI,"$100,000 - $140,000 a year","$100,000 - $140,000 a year
 Permanent
 Scientifique principal des données (PRINCIPAL DATA SCIENTIST)
@@ -171,4 +171,4 @@ Lieu:
 Ville-Marie, Montréal (Souhaitée)
 Langue:
 français (Souhaitée)
-anglais (Requise)","['scala', 'numpy', 'spark', 'keras', 'sql', 'python', 'aws', 'tableau', 'tensorflow', 'pandas', 'hadoop', 'matlab', 'scikit', 'r', 'hive', 'azure', 'phd', 'd3']",0.3333333333333333
+anglais (Requise)","['phd', 'sql', 'python', 'scikit', 'tensorflow', 'hive', 'tableau', 'd3', 'aws', 'scala', 'azure', 'matlab', 'pandas', 'r', 'hadoop', 'keras', 'numpy', 'spark']",0.5217491947499509

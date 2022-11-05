@@ -43,9 +43,6 @@ def main():
     # Extract skill keywords from job descriptions 
     #This will remain static for all the runs 
     skill_match.extract_jobs_keywords()
-    # Show exploratory data analysis if job search is nationwide i.e. no input for city
-    if (len(sys.argv) == 1):
-        skill_match.exploratory_data_analysis()
     # ---------------------------------------------------
     # -- Job recommendation based on skill matching -----
     # ---------------------------------------------------

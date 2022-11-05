@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct 18 12:52:03 2018
-
-@author: Peng Wang
-
 Tokenize text, extract keywords, and recommend jobs by matching keywords from resume with jobs
 """
 import numpy as np
@@ -87,65 +83,7 @@ class skill_keyword_match:
         #print(keyword_count)
         return keyword_count
     
-    def exploratory_data_analysis(self):
-        '''
-        Exploratory data analysis
-        Input: 
-            None
-        Output: 
-            None
-        '''         
-        # Create a counter of keywords
-        doc_freq = Counter() 
-        f = [doc_freq.update(item) for item in self.jobs_info_df['keywords']]
-        
-        # Let's look up our pre-defined skillset vocabulary in Counter
-        overall_skills_df = self.keywords_count(overall_skills_dict, doc_freq)
-        # Calculate percentage of required skills in all jobs
-        overall_skills_df['Freq_perc'] = (overall_skills_df['Freq'])*100/self.jobs_info_df.shape[0]
-        overall_skills_df = overall_skills_df.sort_values(by='Freq_perc', ascending=False)  
-        # Make bar plot 
-        plt.figure(figsize=(14,8))
-        overall_skills_df.iloc[0:30, overall_skills_df.columns.get_loc('Freq_perc')].plot.bar()
-        plt.title('Percentage of Required Data Skills in Data Scientist/Engineer/Analyst Job Posts')
-        plt.ylabel('Percentage Required in Jobs (%)')
-        plt.xticks(rotation=30)
-        plt.show()
-        
-        # Plot word cloud
-        all_keywords_str = self.jobs_info_df['keywords'].apply(' '.join).str.cat(sep=' ')        
-        # lower max_font_size, change the maximum number of word and lighten the background:
-        wordcloud = WordCloud(background_color="white").generate(all_keywords_str)
-        plt.figure()
-        plt.imshow(wordcloud, interpolation="bilinear")
-        plt.axis("off")
-        plt.show()
-         
-        # Let's look up education requirements
-        education_df = self.keywords_count(education, doc_freq)
-        # Merge undergrad with bachelor
-        education_df.loc['bachelor','Freq'] = education_df.loc['bachelor','Freq'] + education_df.loc['undergraduate','Freq'] 
-        education_df.drop(labels='undergraduate', axis=0, inplace=True)
-        # Calculate percentage of required skills in all jobs
-        education_df['Freq_perc'] = (education_df['Freq'])*100/self.jobs_info_df.shape[0] 
-        education_df = education_df.sort_values(by='Freq_perc', ascending=False)  
-        # Make bar plot 
-        plt.figure(figsize=(14,8))
-        education_df['Freq_perc'].plot.bar()
-        plt.title('Percentage of Required Education in Data Scientist/Engineer/Analyst Job Posts')
-        plt.ylabel('Percentage Required in Jobs (%)')
-        plt.xticks(rotation=0)
-        plt.show()
-        
-        # Plot distributions of jobs posted in major cities 
-        plt.figure(figsize=(8,8))
-        self.jobs_info_df['location'].value_counts().plot.pie(autopct='%1.1f%%', textprops={'fontsize': 10})
-        plt.title('Data Scientist/Engineer/Analyst Jobs in Major Canadian Cities \n\n Total {} posted jobs in last {} days'.format(self.jobs_info_df.shape[0],config.DAY_RANGE))
-        plt.ylabel('')
-        plt.show()
     
-        
-    '''
     def loadGloveModel(self):
         gloveFile = "data/glove.6B.50d.txt"
         print ("Loading Glove Model")
@@ -159,7 +97,7 @@ class skill_keyword_match:
             model[word] = embedding
         print ("Done.",len(model)," words loaded!")
         self.model = model
-    '''
+    
     
     def cosine_distance_wordembedding_method(self,x, y):
         vector_1 = np.mean([self.model[word] for word in (x)],axis=0)
