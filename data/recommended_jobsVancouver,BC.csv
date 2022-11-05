@@ -29,7 +29,7 @@ Motivated. We’re a team of data scientists with personal and collaborative sid
 
 Mastercard is an inclusive Equal Employment Opportunity employer that considers applicants without regard to gender, gender identity, sexual orientation, race, ethnicity, disabled or veteran status, or any other characteristic protected by law.
 
-If you require accommodations or assistance to complete the online application process, please contact reasonable.accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.","['agile', 'aws', 'tensorflow', 'keras', 'mxnet', 'google', 'python', 'java', 'power', 'scala']",0.6
+If you require accommodations or assistance to complete the online application process, please contact reasonable.accommodation@mastercard.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.","['scala', 'python', 'mxnet', 'keras', 'tensorflow', 'agile', 'power', 'java', 'google', 'aws']",0.6
 https://www.indeed.ca/rc/clk?jk=79199063508bc204&fccid=b0fba60337a02c72&vjs=3,"Vancouver,BC",Senior Data Engineer,Mobify,,"Mobify is looking for a Senior Data Engineer to join our team!
 Mobify’s data pipeline processes billions of events every month from web browsers interacting with Progressive Web Apps. It is built on AWS Elastic Beanstalk, Kafka, EMR (using Flink), S3, Luigi and Redshift.
 
@@ -54,7 +54,7 @@ You have previous experience working with at least one big data technology like 
 You are proficient using Python, Scala or another programming language
 You have advanced skills designing and maintaining database schemas, and writing performant queries with SQL
 You’re a strong communicator who loves to collaborate with a team and customers
-You have a growth mindset and are open and willing to both accept and give feedback","['sql', 'aws', 'python', 'power', 'scala']",0.565685424949238
+You have a growth mindset and are open and willing to both accept and give feedback","['scala', 'python', 'sql', 'power', 'aws']",0.565685424949238
 https://www.indeed.ca/rc/clk?jk=cf67382b7734dea5&fccid=ca6562c8f6a697ad&vjs=3,"Vancouver,BC",BI Analyst,Tundra Technical Solutions,,"Contract
 BUSINESS INTELLIGENCE ANALYST
 Work Location: downtown Vancouver, BC
@@ -84,7 +84,7 @@ Demonstrated success with strategic analytical projects, working with various st
 Demonstrated ability managing deadlines, workload, and multiple complex projects.
 
 
-If you are interested in this job opportunity, please send your resume to Audrey at athorgrimson@tundratechnical.ca. Thanks!","['sql', 'agile', 'excel', 'azure', 'power']",0.565685424949238
+If you are interested in this job opportunity, please send your resume to Audrey at athorgrimson@tundratechnical.ca. Thanks!","['sql', 'azure', 'agile', 'power', 'excel']",0.565685424949238
 https://www.indeed.ca/rc/clk?jk=e4d37b521d4e4f91&fccid=641199101caf07fe&vjs=3,"Vancouver,BC",Senior Data Scientist,Finning International Inc.,,"At Finning Digital, we’re connecting customers, equipment, operators and data to create new value, both for Finning and for our customers – and revolutionizing an industry.
 
 This is your opportunity to make a unique and measurable impact on a transforming business.
@@ -130,7 +130,7 @@ You are a Swiss army knife with a wide range of skills and do what it takes to g
 Experience using one or more Python, VBA, MATLAB, Java, C++ programming languages is nice to have
 
 
-We are committed to diversity at Finning, to building and sustaining a diverse and inclusive workforce and as an equal opportunity employer we encourage applications from all qualified individuals. Finning does not discriminate against applicants based on genders, races, national and ethnic origins, religions, ages, sexual orientation, marital and family status, and/or mental or physical disabilities.","['sql', 'tableau', 'r', 'sas', 'matlab', 'excel', 'phd', 'azure', 'python', 'power', 'c++', 'java', 'mysql', 'spss']",0.50709255283711
+We are committed to diversity at Finning, to building and sustaining a diverse and inclusive workforce and as an equal opportunity employer we encourage applications from all qualified individuals. Finning does not discriminate against applicants based on genders, races, national and ethnic origins, religions, ages, sexual orientation, marital and family status, and/or mental or physical disabilities.","['python', 'power', 'c++', 'tableau', 'mysql', 'matlab', 'java', 'excel', 'r', 'sql', 'phd', 'azure', 'sas', 'spss']",0.50709255283711
 https://www.indeed.ca/rc/clk?jk=1b6f98fb67b0e587&fccid=1468513ebc10d6b8&vjs=3,"Vancouver,BC","Specialist, Data Analytics",First Nations Health Authority,,"Permanent
 Are you an expert at analyzing data and finding insights in complex data sets? If you can thrive in a dynamic, fast-paced environment, where you will play a key role in supporting strategic priorities for the health and wellness of BC First Nations, this may be the perfect opportunity for you.
 
@@ -193,4 +193,4 @@ Integrity - Shares complete and accurate information. Maintains confidentiality 
 Reliability - Takes personal responsibility for job performance. Completes work in a timely and consistent manner. Sticks to commitments and reports back on status of assigned tasks.
 Communication - Strong written and oral communication skills. Expresses ideas succinctly and effectively. Organizes and delivers information appropriately. Listens actively.
 Stress tolerance - Displays emotional resilience and the ability to withstand pressure on an on-going basis. Deals with difficult situations while maintaining performance and professionalism. Seeks support from others when necessary. Uses appropriate coping techniques.
-Deadline October 28, 2018 at 4:00PM Date Added 10/12/2018 Organization First Nations Health Authority Job Board Category Analyst Website FNHA Career Department 6000-First Nations Health Benefits Hours per week 37.5 Supervisor Level None Union Code NonUnion Reg/Temp Regular (Permanent) Region Corporate Office","['bachelor', 'sql', 'tableau', 'r', 'excel', 'python', 'power']",0.47809144373375745
+Deadline October 28, 2018 at 4:00PM Date Added 10/12/2018 Organization First Nations Health Authority Job Board Category Analyst Website FNHA Career Department 6000-First Nations Health Benefits Hours per week 37.5 Supervisor Level None Union Code NonUnion Reg/Temp Regular (Permanent) Region Corporate Office","['python', 'power', 'tableau', 'excel', 'r', 'sql', 'bachelor']",0.47809144373375745

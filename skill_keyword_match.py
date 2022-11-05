@@ -145,7 +145,7 @@ class skill_keyword_match:
         plt.show()
     
         
-    
+    '''
     def loadGloveModel(self):
         gloveFile = "data/glove.6B.50d.txt"
         print ("Loading Glove Model")
@@ -159,6 +159,7 @@ class skill_keyword_match:
             model[word] = embedding
         print ("Done.",len(model)," words loaded!")
         self.model = model
+    '''
     
     def cosine_distance_wordembedding_method(self,x, y):
         vector_1 = np.mean([self.model[word] for word in (x)],axis=0)
@@ -250,7 +251,7 @@ class skill_keyword_match:
         similarity = []
         similarity_cosine = []
         similarity_cosine_glove = []
-        self.loadGloveModel()
+        #self.loadGloveModel()
         j_info = self.jobs_info_df.loc[self.jobs_info_df['location']==location].copy() if len(location)>0 else self.jobs_info_df.copy()
         #print(j_info)
         #print(j_info.shape[0])
@@ -264,20 +265,21 @@ class skill_keyword_match:
             #print(set(resume_keywords))
             #print(type(job_skills))
             #similarity_cosine.append(self.get_cosine_sim(resume_keywords.tolist(),job_skills))
-            #similarity_cosine.append(self.get_cosine_similarity_bit_vector(resume_keywords.tolist(),job_skills))
-            similarity_cosine_glove.append(self.cosine_distance_wordembedding_method(resume_keywords.tolist(),job_skills))
+            similarity_cosine.append(self.get_cosine_similarity_bit_vector(resume_keywords.tolist(),job_skills))
+            #similarity_cosine_glove.append(self.cosine_distance_wordembedding_method(resume_keywords.tolist(),job_skills))
         #j_info['similarity'] = similarity
-        #j_info['similarity_cosine'] = similarity_cosine
-        j_info['similarity_cosine_glove'] = similarity_cosine_glove
+        j_info['similarity_cosine'] = similarity_cosine
+        #j_info['similarity_cosine_glove'] = similarity_cosine_glove
         #print(j_info['similarity'])
         #print(j_info)
         #top_match = j_info.sort_values(by='similarity', ascending=False).head(num_jobs_return)
-        #top_match_based_on_cosine = j_info.sort_values(by='similarity_cosine', ascending=False).head(num_jobs_return)        
-        top_match_based_on_cosine_glove = j_info.sort_values(by='similarity_cosine_glove', ascending=False).head(num_jobs_return)
+        top_match_based_on_cosine = j_info.sort_values(by='similarity_cosine', ascending=False).head(num_jobs_return)        
+        #top_match_based_on_cosine_glove = j_info.sort_values(by='similarity_cosine_glove', ascending=False).head(num_jobs_return)
         # Return top matched jobs
-        print(top_match_based_on_cosine_glove)
+        #print(top_match_based_on_cosine_glove)
+        print(top_match_based_on_cosine)
         #return top_match
-        return top_match_based_on_cosine_glove
+        return top_match_based_on_cosine
       
     def extract_jobs_keywords(self):
         '''
