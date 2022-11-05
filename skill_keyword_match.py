@@ -16,6 +16,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import scipy
 # The following data science skill sets are modified from 
 # https://github.com/yuanyuanshi/Data_Skills/blob/master/data_skills_1.py
+#We need to update our skill list based on what dataset we decide to finalise
 program_languages = ['bash','r','python','java','c++','ruby','perl','matlab','javascript','scala','php']
 analysis_software = ['excel','tableau','sas','spss','d3','saas','pandas','numpy','scipy','sps','spotfire','scikit','splunk','power','h2o']
 ml_framework = ['pytorch','tensorflow','caffe','caffe2','cntk','mxnet','paddle','keras','bigdl']
@@ -82,29 +83,6 @@ class skill_keyword_match:
         #dictionary (so freq = 0 means that it is not present in resume keywords else we put the freq count from resume keyword)
         #print(keyword_count)
         return keyword_count
-    
-    
-    def loadGloveModel(self):
-        gloveFile = "data/glove.6B.50d.txt"
-        print ("Loading Glove Model")
-        with open(gloveFile, encoding="utf8" ) as f:
-            content = f.readlines()
-        model = {}
-        for line in content:
-            splitLine = line.split()
-            word = splitLine[0]
-            embedding = np.array([float(val) for val in splitLine[1:]])
-            model[word] = embedding
-        print ("Done.",len(model)," words loaded!")
-        self.model = model
-    
-    
-    def cosine_distance_wordembedding_method(self,x, y):
-        vector_1 = np.mean([self.model[word] for word in (x)],axis=0)
-        vector_2 = np.mean([self.model[word] for word in (y)],axis=0)
-        cosine = scipy.spatial.distance.cosine(vector_1, vector_2)
-        print('Word Embedding method with a cosine distance asses that our two sentences are similar to',round((1-cosine)*100,2),'%')
-        return cosine
     
     def get_jaccard_sim(self, x_set, y_set): 
         '''

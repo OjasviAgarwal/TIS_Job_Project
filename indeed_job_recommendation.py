@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 
-Build a simple data-science-skill-keyword-based job recommendation engine, 
-which match keywords from resume to data science jobs in major Canadian cities.
-Step 1: Scrape "data scientist/engineer/analyst" jobs from indeed.ca
+Build a job-description and skill-keyword based job recommendation engine, 
+which would match keywords from resume to jobs in ____________.
+Step 1: Scrape "________________" jobs from __________
 Step 2: Tokenize and extract skill keywords from job descriptions
 Step 3: Tokenize and extract skill keywords from resume
-Step 4: Calculate Jaccard similarity of keywords from posted jobs and resume, 
+Step 4: Calculate Cosine similarity of keywords from posted jobs and resume, 
         and recommend top 5 matches 
 """
 import sys 
