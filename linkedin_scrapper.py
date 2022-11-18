@@ -1,5 +1,6 @@
 import os
 import logging
+import config
 from linkedin_jobs_scraper import LinkedinScraper
 from linkedin_jobs_scraper.events import Events, EventData, EventMetrics
 from linkedin_jobs_scraper.query import Query, QueryOptions, QueryFilters
@@ -61,6 +62,17 @@ queries = [
     ),
 ]
 
-scraper.run(queries)
-df = pd.DataFrame(jobs_data, columns=['link', 'location', 'title', 'company', 'salary', 'desc'])
-df.to_csv("LinkedinJobs.csv", index=False)
+def web_scrape():
+    scraper.run(queries)
+    df = pd.DataFrame(jobs_data, columns=['link', 'location', 'title', 'company', 'salary', 'desc'])
+    df.to_csv("LinkedinJobs.csv", index=False)
+
+def get_linkedin_jobs_info():
+    exists = os.path.isfile(config.LINKED_JOBS_INFO_CSV_FILE)     
+    if exists:
+        df = pd.read_csv(config.LINKED_JOBS_INFO_CSV_FILE)
+        #with open(config.LINKED_JOBS_INFO_CSV_FILE, 'r') as fp:
+        #    df = json.load(fp)            
+    else:
+        df = web_scrape()
+    return df

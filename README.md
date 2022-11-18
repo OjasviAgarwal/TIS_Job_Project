@@ -35,6 +35,8 @@ This project requires **Python 3.0+** and the following Python libraries install
 - [NLTK Stopwords](https://www.nltk.org/book/ch02.html)
 - [Selenium](https://www.seleniumhq.org/)
 - [PyPDF2](https://pythonhosted.org/PyPDF2/)
+- pip install -r requirements.txt
+
 ## Code
 
 Code is provided in 

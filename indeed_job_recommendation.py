@@ -31,6 +31,7 @@ def main():
     # ---------------------------------------------------
     #you are going to the web_scrapper.py file and calling the get_jobs_info class
     jobs_info = web_scrapper.get_jobs_info(location)
+    #print(jobs_info[0])
     #print(jobs_info)  #this is throwing a lot of text data  
     # ---------------------------------------------------
     # -------- Keyword extraction and analysis ----------

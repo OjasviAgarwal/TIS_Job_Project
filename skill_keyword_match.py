@@ -9,6 +9,7 @@ from collections import Counter
 import pandas as pd
 import PyPDF2
 import config
+import linkedin_scrapper
 #We need to update our skill list based on what dataset we decide to finalise
 program_languages = ['bash','r','python','java','c++','ruby','perl','matlab','javascript','scala','php']
 analysis_software = ['excel','tableau','sas','spss','d3','saas','pandas','numpy','scipy','sps','spotfire','scikit','splunk','power','h2o']
@@ -32,6 +33,16 @@ class skill_keyword_match:
             None
         '''
         self.jobs_info_df = pd.DataFrame(jobs_list)
+        #calling the linkedIn scrapper to get that added to the original dataframe
+        linkedin_df = linkedin_scrapper.get_linkedin_jobs_info()
+        #print(linkedin_df)
+        #print(len(self.jobs_info_df.index))
+        #print(len(linkedin_df.index))
+        #self.jobs_info_df.concat(linkedin_df)
+        #self.jobs_info_df.concat([self.jobs_info_df, linkedin_df])
+        self.jobs_info_df = self.jobs_info_df.append(linkedin_df, ignore_index=True)
+        #print(len(self.jobs_info_df.index))
+        #print(self.jobs_info_df.tail(10))
         #print(self.jobs_info_df)
           
     def keywords_extract(self, text): 

@@ -6,6 +6,7 @@ Created on Thu Oct 18 12:26:22 2018
 """
 # Saved file for each job url
 JOBS_LINKS_JSON_FILE = r'./data/indeed_jobs_links.json'
+LINKED_JOBS_INFO_CSV_FILE = "LinkedinJobs.csv"
 # Saved file for each job info
 JOBS_INFO_JSON_FILE = r'./data/indeed_jobs_info.json'
 # Saved file for recommended jobs
