@@ -4,6 +4,8 @@ Tokenize text, extract keywords, and recommend jobs by matching keywords from re
 """
 import numpy as np
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from collections import Counter 
 import pandas as pd
