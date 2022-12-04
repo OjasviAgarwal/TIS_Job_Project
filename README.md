@@ -40,6 +40,7 @@ This project requires **Python 3.0+** and the following Python libraries install
 ## Code
 
 Code is provided in 
+- job_recommendation.py
 - linkedin_scrapper.py
 - skill_keyword_match.py
 - web_scrapper.py
