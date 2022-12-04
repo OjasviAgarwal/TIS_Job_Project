@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 18 12:29:09 2018
 
-@author: Peng Wang
-
-Scrape jobs from indeed.ca
-"""
 
 import random, json
 import numpy as np
@@ -41,7 +35,7 @@ def get_jobs_info(search_location):
         
 def web_scrape(search_location):
     '''
-    Scrape jobs from indeed.ca
+    Scrape jobs from linkedin
     When scraping web, be kind and patient
     Web scraping 101: http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/
     Input: 
