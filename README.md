@@ -50,10 +50,7 @@ Code is provided in
 In a terminal or command window, navigate to the top-level project directory `TIS_Job_Project/` and run one of the following commands:
 
 Search and match jobs in all cities:
-```python indeed_job_recommendation.py```
-
-Search and match jobs in one city e.g. Vancouver,BC:
-```python indeed_job_recommendation.py Vancouver,BC```
+```python job_recommendation.py```
 
 When finishes successfully, it will say 'File of recommended jobs saved'.
 
